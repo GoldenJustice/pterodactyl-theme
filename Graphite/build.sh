@@ -16,9 +16,9 @@ if [ ! -f "artisan" ]; then
     zip -r PanelBackup-$(date +"%Y-%m-%d").zip public resources
 
     echo "Downloading the Theme you picked"
-    mkdir -p tempdown && cd tempdown && git clone https://github.com/GoldenJustice/pterodactyl-theme. 
-    cp -r Pterodactyl-7/Graphite/public ..
-    cp -r Pterodactyl-7/Graphite/resources ..
+    mkdir -p tempdown && cd tempdown && git clone https://github.com/GoldenJustice/pterodactyl-theme 
+    cp -r Graphite/public ..
+    cp -r Graphite/resources ..
 
     echo "Files have been copied over!"
     sleep 2
